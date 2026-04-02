@@ -1,2 +1,10 @@
-.venv
+__pycache__
 .vscode
+
+.venv
+
+output/
+
+# GIS Data
+*.geojson
+*.gpkg

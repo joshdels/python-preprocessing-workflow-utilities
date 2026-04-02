@@ -1,3 +1,5 @@
+import ezdxf
+
 doc = ezdxf.readfile("../data/sample.dxf")
 msp = doc.modelspace()
 
