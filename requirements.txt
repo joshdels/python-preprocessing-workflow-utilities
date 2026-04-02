@@ -8,6 +8,7 @@ attrs==26.1.0
 babel==2.18.0
 beautifulsoup4==4.14.3
 bleach==6.3.0
+branca==0.8.2
 certifi==2026.2.25
 cffi==2.0.0
 charset-normalizer==3.4.6
@@ -64,6 +65,7 @@ nest-asyncio==1.6.0
 notebook==7.5.5
 notebook_shim==0.2.4
 numpy==2.4.4
+opencv-contrib-python==4.13.0.92
 packaging==26.0
 pandas==3.0.2
 pandocfilters==1.5.1
@@ -76,6 +78,7 @@ psutil==7.2.2
 pure_eval==0.2.3
 pycparser==3.0
 Pygments==2.20.0
+PyMuPDF==1.27.2.2
 pyogrio==0.12.1
 pyparsing==3.3.2
 pyproj==3.7.2
@@ -109,3 +112,4 @@ webcolors==25.10.0
 webencodings==0.5.1
 websocket-client==1.9.0
 widgetsnbextension==4.0.15
+xyzservices==2026.3.0

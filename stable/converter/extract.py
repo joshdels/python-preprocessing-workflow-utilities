@@ -54,7 +54,7 @@ def dxf_to_dataframe(doc: ezdxf.document.Drawing) -> gpd.GeoDataFrame:
             geom = parsers[etype](entity)
             if geom:
                 rows.append(
-                    {"geometry": geom, "layer": entity.dxf.layer, "dxf_type": etype}
+                    {"geometry": geom, "layer": entity.dxf.layer, "cad_type": etype}
                 )
 
     return gpd.GeoDataFrame(rows)

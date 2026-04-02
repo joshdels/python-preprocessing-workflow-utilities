@@ -1,0 +1,41 @@
+## Which Ones Do You Actually Need for auto tracing?
+
+### 🟢 Must Learn (core 4)
+| Library | Purpose |
+|---|---|
+| `opencv` | Image processing |
+| `numpy` | Array handling |
+| `shapely` | Geometry |
+| `geopandas` | Save GIS files |
+
+---
+
+### 🟡 Add Later (when needed)
+| Library | When to add it |
+|---|---|
+| `pymupdf` (fitz) | Only when input is a **PDF** |
+| `rasterio` | Only when you need **real coordinates** from georeference |
+
+---
+
+### 🔵 Advanced (skip for now)
+| Library | Why skip |
+|---|---|
+| `scikit-image` | Only needed if OpenCV contours aren't enough |
+| `skan` | Only needed for skeleton tracing — complex |
+
+---
+
+## Simple Rule
+```
+Just starting?
+→ Learn OpenCV + NumPy + Shapely + GeoPandas
+
+Input is PDF?
+→ Add PyMuPDF (pip install pymupdf, import fitz)
+
+Need real GPS coords?
+→ Add Rasterio
+
+Lines still messy?
+→ Then learn scikit-image + skan
