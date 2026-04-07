@@ -11,8 +11,6 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-logger.info("Running Inspection of the File, Please Wait")
-
 
 def get_dxf_metadata(doc, msp) -> dict:
     """Extracts raw info. No printing, no saving. Just data."""
@@ -62,6 +60,8 @@ def run_inspection(file_path: str, output_dir: str = "reports"):
     Inspect the DXF file if its valid and its CRS
     Return A report both via logs and a text file
     """
+
+    logger.info("Running Inspection of the File, Please Wait")
     path = pathlib.Path(file_path).resolve()
 
     if not path.exists():
