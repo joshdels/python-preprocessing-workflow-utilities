@@ -3,7 +3,9 @@ __pycache__
 
 .venv
 
+# folder
 output/
+reports/
 
 # GIS Data
 *.geojson
