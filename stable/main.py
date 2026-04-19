@@ -1,4 +1,6 @@
 import converter
 
-converter.run_inspection("../data/sample.dxf")
-converter.extract_to_geopackage("../data/sample.dxf")
+path = r"C:\Users\deleo\Downloads\res\sample.dxf"
+
+# converter.run_inspection(path)
+converter.extract_to_geopackage(path)
